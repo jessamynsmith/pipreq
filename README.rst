@@ -1,6 +1,10 @@
 pipreq
 ======
 
+***THIS PROJECT IS NOW DEFUNCT!***
+
+Please use pipwrap instead: https://pypi.python.org/pypi/pipwrap
+
 |Build Status| |Coverage Status| |PyPI Version| |Supported Versions| |Downloads|
 
 pipreq simplifies handling Python project requirements across multiple
