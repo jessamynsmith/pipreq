@@ -5,7 +5,7 @@ pipreq
 
 Please use pipwrap instead: https://pypi.python.org/pypi/pipwrap
 
-|Build Status| |Coverage Status| |PyPI Version| |Supported Versions| |Downloads|
+|Build Status| |Coverage Status| |PyPI Version| |Supported Python Versions| |Downloads|
 
 pipreq simplifies handling Python project requirements across multiple
 environments. pip freeze > requirements.txt gets your project started,
@@ -150,13 +150,18 @@ Install your local copy:
 
     python setup.py.install
 
-.. |Build Status| image:: https://circleci.com/gh/jessamynsmith/pipreq.svg?style=shield
+.. |Build Status| image:: https://img.shields.io/circleci/project/github/jessamynsmith/pipreq.svg
    :target: https://circleci.com/gh/jessamynsmith/pipreq
-.. |Coverage Status| image:: https://coveralls.io/repos/jessamynsmith/pipreq/badge.svg?branch=master
+   :alt: Build status
+.. |Coverage Status| image:: https://img.shields.io/coveralls/jessamynsmith/pipreq.svg
    :target: https://coveralls.io/r/jessamynsmith/pipreq?branch=master
-.. |PyPI Version| image:: https://pypip.in/version/pipreq/badge.svg
+   :alt: Coverage status
+.. |PyPI Version| image:: https://img.shields.io/pypi/v/pipreq.svg
    :target: https://pypi.python.org/pypi/pipreq
-.. |Supported Versions| image:: https://pypip.in/py_versions/pipreq/badge.svg
+   :alt: Latest PyPI version
+.. |Supported Python Versions| image:: https://img.shields.io/pypi/pyversions/pipreq.svg
    :target: https://pypi.python.org/pypi/pipreq
-.. |Downloads| image:: https://pypip.in/download/pipreq/badge.svg
+   :alt: Supported Python versions
+.. |Downloads| image:: https://img.shields.io/pypi/dm/pipreq.svg
    :target: https://pypi.python.org/pypi/pipreq
+   :alt: Number of PyPI downloads
