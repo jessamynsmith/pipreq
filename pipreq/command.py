@@ -16,8 +16,9 @@ except NameError:
 
 class Command(object):
 
-    LINE_REGEX = re.compile('(?P<package>[A-Za-z0-9.-]+)'
-                            '(?:(?P<specifier>[=<>]{1,2})(?P<version>\S+))?\Z')
+    LINE_REGEX = re.compile(r"""(?P<package>[A-Za-z0-9.-]+)
+                                (?:(?P<specifier>[=<>]{1,2})(?P<version>\S+))?\Z""",
+                            re.VERBOSE)
 
     def __init__(self, args, rc_filename):
         self.args = args
